@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: medium;
+}
+main {
+    width: 95%;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid_1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+.tema2{
+    background-color: red;
+    padding-block: 150px
+}
+.tema3{
+    background-color: blue;
+    padding-block: 150px
+}
+.tema4{
+    background-color: purple;
+    padding-block: 150px
+}
+.tema5{
+    background-color: green;
+    padding-block: 150px
+}
