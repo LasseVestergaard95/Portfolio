@@ -1,48 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    line-height: 1.6;
-    font-size: medium;
+  font-family: sans-serif;
+  line-height: 1.6;
+  font-size: medium;
 }
 main {
-    width: 95%;
-    max-width: 1200px;
-    margin-inline: auto;
+  width: 95%;
+  max-width: 1200px;
+  margin-inline: auto;
 }
 img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.grid_1_1{
+a {
+  text-decoration: none;
+}
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-block: 1rem;
+}
+
+h2,
+h3 {
+  text-align: center;
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+.grid_1_1 h2 {
+  font-size: 3rem;
+}
+
+.tema2,
+.tema3,
+.tema4,
+.tema5 {
+  display: grid;
+  place-items: center;
+  background-size: cover;
+  background-color: #354f52;
+}
+.tema2 a,
+h2 {
+  grid-area: 1/1;
+  z-index: 2;
+}
+.tema3 a,
+h2 {
+  grid-area: 1/1;
+  z-index: 2;
+}
+.tema4 a,
+h2 {
+  grid-area: 1/1;
+  z-index: 2;
+}
+.tema5 a,
+h2 {
+  grid-area: 1/1;
+  z-index: 2;
+}
+
+.grid_1_1 img {
+  opacity: 0.5;
+  -webkit-transition: opacity 0.3s;
+}
+.grid_1_1 img:hover {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  max-width: 95%;
+}
+
+header {
+  background-color: black;
+  padding-block: 1rem;
+}
+
+header img {
+  margin-inline-start: 1rem;
+}
+nav a {
+  padding: 2rem;
+  text-decoration: none;
+  color: white;
+  font-family: gill-sans-nova;
+  font-weight: 500;
+}
+
+@media (max-width: 700px) {
+  .grid_1_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
-h2, h3{
-    text-align: center;
-}
-
-.tema2{
-    background-color: red;
-    padding-block: 150px
-}
-.tema3{
-    background-color: blue;
-    padding-block: 150px
-}
-.tema4{
-    background-color: purple;
-    padding-block: 150px
-}
-.tema5{
-    background-color: green;
-    padding-block: 150px
+    grid-template-columns: 1fr;
+  }
 }
