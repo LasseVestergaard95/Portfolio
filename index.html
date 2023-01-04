@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="layout.css" />
     <link rel="stylesheet" href="https://use.typekit.net/tkd8elj.css" />
     <title>Forside</title>
   </head>
   <body>
-    <header>
-      <div class="header_wrapper">
-        <a href="index.html" class="logo">
+    <header class="header_wrapper">
+      <div class="logo">
+        <a href="index.html">
           <img src="logo.png" alt="logo" />
         </a>
-
-        <nav class="header_kategori">
-          <a href="index.html">FORSIDE</a>
-
-          <a href="index.html">PROJEKTER</a>
-
-          <a href="index.html">OM MIG</a>
-        </nav>
       </div>
+
+      <nav class="header_kategori">
+        <button class="toggle-btn">MENU</button>
+        <ul>
+          <li><a href="index.html">FORSIDE</a></li>
+
+          <li><a href="index.html">PROJEKTER</a></li>
+
+          <li><a href="index.html">OM MIG</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="grid_1_1">
@@ -49,5 +52,6 @@
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

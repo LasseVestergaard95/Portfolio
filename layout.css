@@ -1,15 +1,37 @@
-.header_wrapper {
+header {
   display: flex;
   justify-content: space-between;
+
   flex-wrap: wrap;
   height: 100%;
   align-items: center;
-  max-width: 95%;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_kategori.shown{
+display: contents;
+}
+
+.header_kategori ul{
+  display: none;
+}
+
+.header_kategori.shown ul {
+  border-top: 1px solid #000;
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: column;
+  flex-basis: 100%;
 }
 
 .grid_1_1 {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 5px;
+  margin-block: 0.8rem;
 }
 .tema2,
 .tema3,
@@ -59,4 +81,13 @@ h2 {
     gap: 5px;
     margin-block: 1rem;
   }
+
+  /* dette er burgermenu som forsvinder over 700px */
+  .toggle-btn{
+    display: none;
+  }
+
+  .header_kategori ul{
+    display: flex;
+}
 }

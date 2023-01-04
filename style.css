@@ -27,13 +27,19 @@ header {
 header img {
   margin-inline-start: 1rem;
 }
-nav a {
+nav a, button {
   padding: 2rem;
   text-decoration: none;
   color: white;
   font-family: gill-sans-nova;
   font-weight: 500;
   font-size: large;
+  background-color: transparent;
+  border: none;
+}
+
+li{
+  list-style: none;
 }
 
 a {
