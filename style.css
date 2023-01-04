@@ -38,8 +38,14 @@ nav a, button {
   border: none;
 }
 
+button{
+  font-size: x-large;
+}
 li{
   list-style: none;
+}
+nav a:hover{
+  font-weight: 800;
 }
 
 a {
