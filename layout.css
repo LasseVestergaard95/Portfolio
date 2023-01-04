@@ -3,19 +3,20 @@ header {
   justify-content: space-between;
 
   flex-wrap: wrap;
-  height: 100%;
+  height: fit-content;
   align-items: center;
 }
-nav ul{
+nav ul {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
-.header_kategori.shown{
-display: contents;
+.header_kategori.shown {
+  display: contents;
 }
 
-.header_kategori ul{
+.header_kategori ul {
   display: none;
 }
 
@@ -82,12 +83,14 @@ h2 {
     margin-block: 1rem;
   }
 
-  /* dette er burgermenu som forsvinder over 700px */
-  .toggle-btn{
+  /* dette er burgermenu knappen som forsvinder over 700px */
+  .toggle-btn {
     display: none;
   }
-
-  .header_kategori ul{
+  .header_kategori.shown {
+    display: none;
+  }
+  .header_kategori ul {
     display: flex;
-}
+  }
 }
