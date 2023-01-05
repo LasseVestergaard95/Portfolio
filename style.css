@@ -86,3 +86,8 @@ h3 {
   border-radius: 15px;
   padding-inline: 15px;
 }
+
+.grid_btn:hover a{
+  transform: scale(1.02);
+  font-weight: 700;
+}
