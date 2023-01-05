@@ -34,7 +34,7 @@ nav ul {
 .grid_1_1 {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 5px;
+  gap: 10px;
   margin-block: 0.8rem;
 }
 .tema2,
@@ -45,37 +45,16 @@ nav ul {
   place-items: center;
   background-size: cover;
   background-color: #354f52;
-}
-.tema2 a,
-h2 {
-  grid-area: 1/1;
-  z-index: 2;
-}
-.tema3 a,
-h2 {
-  grid-area: 1/1;
-  z-index: 2;
-}
-.tema4 a,
-h2 {
-  grid-area: 1/1;
-  z-index: 2;
-}
-.tema5 a,
-h2 {
-  grid-area: 1/1;
-  z-index: 2;
+  border-radius: 10px;
+  border: 3px solid black;
+  position: relative;
 }
 
 .grid_1_1 img {
-  opacity: 0.5;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s;
+  border-radius: 10px 10px 0px 0px;
 }
-.grid_1_1 img:hover {
-  opacity: 0;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s;
+.tema3 img{
+border-radius: 7px 7px 0px 0px;
 }
 
 @media (min-width: 700px) {
