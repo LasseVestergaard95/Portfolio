@@ -111,7 +111,6 @@ a {
 .tema2_opgaver a {
   color: rgb(236, 225, 225);
   font-weight: 700;
-  text-decoration: underline;
 }
 
 .tema2_opgaver p {
@@ -173,11 +172,11 @@ a {
   }
 
   .tema3_opgavebeskrivelse p,
-  .tema3_opgavebeskrivelse h3,
-  .tema3_opgavebeskrivelse {
+  .tema3_opgavebeskrivelse h3 {
     text-align: center;
     margin: auto;
   }
+
   .tema3_faser h3,
   .tema3_faser p,
   .tema3_faser img {
@@ -187,7 +186,7 @@ a {
     margin-top: 50px;
   }
 
-  .fase3 p{
+  .fase3 p {
     margin-bottom: 3rem;
   }
 }

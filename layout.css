@@ -68,7 +68,7 @@ nav ul {
   margin-inline: 50px;
 }
 .tema2_opgaver a {
-  margin-inline-start: 25px;
+  margin-inline: 25px;
 }
 
 .tema2_opgaver h3 {
@@ -119,11 +119,21 @@ nav ul {
     grid-template-columns: 1fr 1fr;
     gap: 100px;
   }
+  .tema2_emnesite button,
+  .tema2_website button{
+    margin-right: auto;
+    margin-top: auto;
+  }
+
   .tema2_galleri {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 90%;
     margin: auto;
+  }
+  .tema2_website, .tema2_emnesite{
+display: flex;
+flex-direction: column;
   }
   .tema3_faser{
     display: grid;
