@@ -27,9 +27,7 @@ nav ul {
   display: flex;
   flex-flow: column;
   flex-basis: 100%;
-
 }
-
 
 .grid_1_1 {
   display: grid;
@@ -53,15 +51,35 @@ nav ul {
 .grid_1_1 img {
   border-radius: 10px 10px 0px 0px;
 }
-.tema3 img{
-border-radius: 7px 7px 0px 0px;
+.tema3 img {
+  border-radius: 7px 7px 0px 0px;
 }
-
-.tema2_opgaver{
+.tema_beskrivelse img{
+  margin-block-end: 2rem;
+}
+.tema2_opgaver {
   display: grid;
-gap: 10px;
+  gap: 10px;
+  padding-block: 30px;
 }
 
+.tema2_opgaver h3,
+.tema2_opgaver p{
+  margin-inline: 50px;
+}
+.tema2_opgaver a {
+  margin-inline-start: 25px;
+}
+
+.tema2_opgaver h3{
+  margin-block-start: 20px;
+}
+.tema2_galleri img{
+  margin-block: 20px;
+  aspect-ratio: 17/10;
+  object-fit: cover;
+
+}
 @media (min-width: 700px) {
   .grid_1_1 {
     display: grid;
@@ -81,15 +99,21 @@ gap: 10px;
     display: flex;
   }
 
-  .tema_beskrivelse{
+  .tema_beskrivelse {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-block: 2rem;
   }
-  .tema2_opgaver{
+  .tema2_opgaver {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
+  }
+  .tema2_galleri{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
   }
 }
