@@ -10,7 +10,7 @@ body {
   font-size: medium;
 }
 main {
-  width: 90%;
+  width: 95%;
   max-width: 1200px;
   margin-inline: auto;
 }
@@ -53,13 +53,12 @@ a {
   text-decoration: none;
 }
 .forside_tekst {
-  text-align: center;
   margin-block-start: 1rem;
   margin-block-end: 2rem;
 }
-p {
+.forside_tekst p {
   max-width: 75ch;
-  margin: auto;
+
 }
 .grid_1_1 h2,
 h3 {
@@ -90,4 +89,47 @@ h3 {
 .grid_btn:hover a{
   transform: scale(1.02);
   font-weight: 700;
+}
+.tema_beskrivelse p{
+padding-bottom: 20px;
+}
+figcaption{
+  font-style: italic;
+}
+.tema2_opgaver{
+  background-color: #354F52;
+}
+.tema2_opgaver h3{
+  text-align: left;
+  color: rgb(236, 225, 225);
+}
+.tema2_opgaver a{
+  color: rgb(236, 225, 225);
+  font-weight: 700;
+text-decoration: underline;
+
+}
+
+.tema2_opgaver p{
+  padding-bottom: 20px;
+  max-width: 70ch;
+  color: rgb(236, 225, 225);
+}
+
+@media (min-width: 700px){
+
+  .forside_tekst p{
+    text-align: center;
+    margin: auto;
+
+  }
+  h1, h2{
+    text-align: center;
+  }
+  .tema_beskrivelse p{
+    max-width: 75ch;
+  }
+  .tema_beskrivelse h1, h2{
+    text-align:start
+  }
 }

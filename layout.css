@@ -57,6 +57,11 @@ nav ul {
 border-radius: 7px 7px 0px 0px;
 }
 
+.tema2_opgaver{
+  display: grid;
+gap: 10px;
+}
+
 @media (min-width: 700px) {
   .grid_1_1 {
     display: grid;
@@ -74,5 +79,17 @@ border-radius: 7px 7px 0px 0px;
   }
   .header_kategori ul {
     display: flex;
+  }
+
+  .tema_beskrivelse{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-block: 2rem;
+  }
+  .tema2_opgaver{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
   }
 }
