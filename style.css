@@ -28,7 +28,9 @@ footer {
   padding-block: 3rem;
 }
 
-
+p {
+  max-width: 70ch;
+}
 
 header img {
   margin-inline-start: 1rem;
@@ -37,7 +39,7 @@ nav a,
 button {
   padding: 1.4rem;
   text-decoration: none;
-  color: white;
+  color: rgb(236, 225, 225);
   font-family: gill-sans-nova;
   font-weight: 500;
   font-size: large;
@@ -66,12 +68,12 @@ a {
   max-width: 75ch;
 }
 .grid_1_1 h2,
-h3 {
+.grid_1_1 h3 {
   text-align: center;
   font-family: futura-pt-bold, sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: white;
+  color: rgb(236, 225, 225);
 }
 
 .grid_1_1 h2 {
@@ -82,11 +84,11 @@ h3 {
 }
 .grid_btn a {
   text-decoration: none;
-  color: white;
+  color: rgb(236, 225, 225);
   font-family: gill-sans-nova;
   font-weight: 500;
   font-size: large;
-  border: 2px solid white;
+  border: 2px solid rgb(236, 225, 225);
   border-radius: 15px;
   padding-inline: 15px;
 }
@@ -118,16 +120,39 @@ h3 {
   color: rgb(236, 225, 225);
 }
 
-.tema_knap a{
+.tema_knap a {
   text-decoration: none;
-  color: white;
+  color: rgb(236, 225, 225);
   font-family: gill-sans-nova;
   font-weight: 400;
   font-size: large;
-  border: 2px solid white;
+  border: 2px solid rgb(236, 225, 225);
   border-radius: 15px;
   padding-inline: 15px;
+}
+.tema_knap:hover {
+  transform: scale(1.02);
+  font-weight: 700;
+}
 
+.tema3_opgavebeskrivelse {
+  background-color: #354f52;
+}
+.tema3_opgavebeskrivelse p,
+.tema3_opgavebeskrivelse h3 {
+  color: rgb(236, 225, 225);
+  margin-inline: 50px;
+}
+.tema3_opgavebeskrivelse a {
+  margin-inline: 25px;
+}
+.tema3_faser h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.tema3_faser img {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 700px) {
@@ -145,5 +170,24 @@ h3 {
   .tema_beskrivelse h1,
   h2 {
     text-align: start;
+  }
+
+  .tema3_opgavebeskrivelse p,
+  .tema3_opgavebeskrivelse h3,
+  .tema3_opgavebeskrivelse {
+    text-align: center;
+    margin: auto;
+  }
+  .tema3_faser h3,
+  .tema3_faser p,
+  .tema3_faser img {
+    margin-inline: 20px;
+  }
+  .tema3_faser img {
+    margin-top: 50px;
+  }
+
+  .fase3 p{
+    margin-bottom: 3rem;
   }
 }

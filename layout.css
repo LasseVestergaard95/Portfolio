@@ -79,6 +79,9 @@ nav ul {
   aspect-ratio: 17/10;
   object-fit: cover;
 }
+.tema3_opgavebeskrivelse h3{
+  padding-block: 20px;
+}
 @media (min-width: 700px) {
   .grid_1_1 {
     display: grid;
@@ -86,7 +89,9 @@ nav ul {
     gap: 5px;
     margin-block: 1rem;
   }
-
+  .tema3_opgavebeskrivelse h3{
+    margin-inline: 50px;
+  }
   /* dette er burgermenu knappen som forsvinder over 700px */
   .toggle-btn {
     display: none;
@@ -120,4 +125,22 @@ nav ul {
     width: 90%;
     margin: auto;
   }
-}
+  .tema3_faser{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-block: 2rem;
+  }
+  .tema3_faser img{
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    inline-size: 100%;
+    width: 85%;
+  }
+  .fase1, .fase2, .fase3{
+    display: flex;
+    flex-direction: column;
+  }
+  .fase1 > :last-child, .fase2 > :last-child, .fase3 > :last-child{
+margin-top: auto;
+  }}
