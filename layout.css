@@ -38,7 +38,9 @@ nav ul {
 .tema2,
 .tema3,
 .tema4,
-.tema5 {
+.tema5,
+.tema6,
+.cv {
   display: grid;
   place-items: center;
   background-size: cover;
@@ -163,24 +165,32 @@ nav ul {
   .fase3 > :last-child {
     margin-top: auto;
   }
-  .tema4_figurdesign{
+  .tema4_figurdesign {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
-  .tema4_figurdesign img{
-aspect-ratio: 4/2;
-object-fit: cover;
+  .tema4_figurdesign img {
+    aspect-ratio: 4/2;
+    object-fit: cover;
   }
-  .tema4_animation_javascript{
+  .tema4_animation_javascript {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-margin-block: 5rem;
+    margin-block: 5rem;
   }
 
-.img_order{
-  order: -1;
-  object-fit: cover;
+  .img_order {
+    order: -1;
+    object-fit: cover;
+  }
 }
+@media (min-width: 1000px) {
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-block: 1rem;
+  }
 }
