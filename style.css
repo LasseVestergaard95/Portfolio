@@ -64,6 +64,12 @@ a {
   margin-block-start: 1rem;
   margin-block-end: 2rem;
 }
+.forside_tekst h1 {
+line-height: 1;
+}
+.forside_tekst h2 {
+margin-bottom: 10px;
+}
 .forside_tekst p {
   max-width: 75ch;
 }
@@ -182,6 +188,9 @@ a {
     text-align: center;
     margin: auto;
   }
+  .forside_tekst h2 {
+    text-align: center;
+    }
   h1,
   h2 {
     text-align: center;
