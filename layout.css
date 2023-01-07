@@ -92,6 +92,10 @@ nav ul {
   .tema3_opgavebeskrivelse h3{
     margin-inline: 50px;
   }
+  .tema3_opgavebeskrivelse{
+    display: flex;
+    flex-direction: column;
+  }
   /* dette er burgermenu knappen som forsvinder over 700px */
   .toggle-btn {
     display: none;
