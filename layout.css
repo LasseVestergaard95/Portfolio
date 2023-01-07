@@ -79,7 +79,7 @@ nav ul {
   aspect-ratio: 17/10;
   object-fit: cover;
 }
-.tema3_opgavebeskrivelse h3{
+.tema3_opgavebeskrivelse h3 {
   padding-block: 20px;
 }
 @media (min-width: 700px) {
@@ -89,10 +89,10 @@ nav ul {
     gap: 5px;
     margin-block: 1rem;
   }
-  .tema3_opgavebeskrivelse h3{
+  .tema3_opgavebeskrivelse h3 {
     margin-inline: 50px;
   }
-  .tema3_opgavebeskrivelse{
+  .tema3_opgavebeskrivelse {
     display: flex;
     flex-direction: column;
   }
@@ -124,7 +124,7 @@ nav ul {
     gap: 100px;
   }
   .tema2_emnesite button,
-  .tema2_website button{
+  .tema2_website button {
     margin-right: auto;
     margin-top: auto;
   }
@@ -135,26 +135,52 @@ nav ul {
     width: 90%;
     margin: auto;
   }
-  .tema2_website, .tema2_emnesite{
-display: flex;
-flex-direction: column;
+  .tema2_website,
+  .tema2_emnesite {
+    display: flex;
+    flex-direction: column;
   }
-  .tema3_faser{
+  .tema3_faser {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     margin-block: 2rem;
   }
-  .tema3_faser img{
+  .tema3_faser img {
     aspect-ratio: 3/2;
     object-fit: cover;
     inline-size: 100%;
     width: 85%;
   }
-  .fase1, .fase2, .fase3{
+  .fase1,
+  .fase2,
+  .fase3 {
     display: flex;
     flex-direction: column;
   }
-  .fase1 > :last-child, .fase2 > :last-child, .fase3 > :last-child{
-margin-top: auto;
-  }}
+  .fase1 > :last-child,
+  .fase2 > :last-child,
+  .fase3 > :last-child {
+    margin-top: auto;
+  }
+  .tema4_figurdesign{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .tema4_figurdesign img{
+aspect-ratio: 4/2;
+object-fit: cover;
+  }
+  .tema4_animation_javascript{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+margin-block: 5rem;
+  }
+
+.img_order{
+  order: -1;
+  object-fit: cover;
+}
+}

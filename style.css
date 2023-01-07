@@ -154,6 +154,29 @@ a {
   margin-bottom: 30px;
 }
 
+.tema4_opgave_container{
+  background-color: #354f52;
+  color: rgb(236, 225, 225);
+  padding-block-start: 2rem;
+  margin-bottom: 30px;
+}
+
+.tema4_opgave_container h3{
+  margin-bottom: 20px;
+  margin-inline: 50px;
+} 
+.tema4_opgave_container p{
+  margin-bottom: 30px;
+  margin-inline: 50px;
+}
+.tema4_opgave_container img{
+  margin: auto;
+}
+
+.tema4_opgave_container a{
+  margin-inline: 25px;
+}
+
 @media (min-width: 700px) {
   .forside_tekst p {
     text-align: center;
@@ -188,5 +211,11 @@ a {
 
   .fase3 p {
     margin-bottom: 3rem;
+  }
+  .tema4_opgave_container{
+    padding-block-end: 1rem;
+  }
+  .tema4_opgave_container img{
+    width: 95%;
   }
 }

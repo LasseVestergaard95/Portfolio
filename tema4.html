@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/tkd8elj.css" />
+    <title>Forside</title>
+  </head>
+  <body>
+    <header class="header_wrapper">
+      <div class="logo">
+        <a href="index.html">
+          <img src="logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <nav class="header_kategori">
+        <button class="toggle-btn">MENU</button>
+        <ul>
+          <li><a href="index.html">HJEM</a></li>
+
+          <li><a href="tema2.html">TEMA 2</a></li>
+          <li><a href="tema3.html">TEMA 3</a></li>
+          <li><a href="tema4.html">TEMA 4</a></li>
+          <li><a href="index.html">TEMA 5</a></li>
+
+          <li><a href="index.html">CV</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="tema_beskrivelse">
+        <div>
+          <h1>TEMA 4</h1>
+          <h2>Grundlæggende Animation</h2>
+          <p>
+            Tema 4 lærte os hvordan vi kan lave vores eget spil fra bunden ved brug af CSS animationer og implementering af disse med Javascript. Derudover blev vi også introduceret til Illustrator da vi selv skulle tegne og designe spilelementer ud
+            fra en selvvalgt stilart. Temaet er endt ud i et færdig spil med tilhørende hjemmeside som dokumenterer processen.
+          </p>
+        </div>
+        <div><img src="tema4_temabeskrivelse.png" alt="" /></div>
+      </section>
+      <div class="tema4_opgave_container">
+        <section class="tema4_figurdesign">
+          <div>
+            <h3>Figurdesign</h3>
+            <p>
+              I første del af opgaven lavede jeg sketches på figurer baseret på den stilart jeg valgte. Derefter skulle alle elementer designes inde i Illustrator så de til sidst kunne eksporteres til SVG filer. Da jeg ikke har erfaring med at tegne
+              i Illustrator, valgte jeg et simpelt fladt design til mine figurer. Et aktivitetsdiagram blev også lavet så jeg havde et overblik over hvad der kunne klikkes på og hvad konsekvensen var ved disse.
+            </p>
+          </div>
+          <div><img src="tema4_sketch.JPG" alt="" /></div>
+        </section>
+        <!-- INDSÆT MUS ANIMATION HER -->
+        <section class="tema4_animation_javascript">
+         <div> <h3>Animation og Javascript</h3>
+          <p>
+            Efter SVG filerne var eksporteret, kunne jeg begynde at kode alle elementerne ind på spilsiden. I css har jeg defineret hvilke animationer spillet skulle indeholde via keyframes. For at skabe overblik over hvilke animationer der skulle
+            aktiveres og hvornår, har jeg lavet et State Machine diagram som indeholder alle funktioner i spillet. Under hele kodningsforløbet har jeg brugt console.log for at sikre mig at alle funktioner har virket og på de rigtige tidspunkter. Som
+            den sidste del af udviklingen, har jeg optaget lyde til spillet som er redigeret og eksporteret i Audition. I Javascript har jeg bestemt at når man eksempelvis klikker på en mus, så skal den sige en bestemt lyd.
+          </p>
+          <button class="tema_knap"><a href="#">SE SPILLET HER</a></button></div>
+        
+          <div class="img_order"><img src="tema4_javascript.png" alt="" /></div>
+        </section>
+
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
