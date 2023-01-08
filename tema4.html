@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="animation.css" />
     <link rel="stylesheet" href="https://use.typekit.net/tkd8elj.css" />
     <title>Forside</title>
   </head>
@@ -55,20 +56,28 @@
           </div>
           <div><img src="tema4_sketch.JPG" alt="" /></div>
         </section>
+
         <!-- INDSÆT MUS ANIMATION HER -->
+
+        <div id="mus_container">
+          <div id="mus_sprite"></div>
+        </div>
+
+        <!-- INDSÆT MUS ANIMATION HER -->
+
         <section class="tema4_animation_javascript">
-         <div> <h3>Animation og Javascript</h3>
-          <p>
-            Efter SVG filerne var eksporteret, kunne jeg begynde at kode alle elementerne ind på spilsiden. I css har jeg defineret hvilke animationer spillet skulle indeholde via keyframes. For at skabe overblik over hvilke animationer der skulle
-            aktiveres og hvornår, har jeg lavet et State Machine diagram som indeholder alle funktioner i spillet. Under hele kodningsforløbet har jeg brugt console.log for at sikre mig at alle funktioner har virket og på de rigtige tidspunkter. Som
-            den sidste del af udviklingen, har jeg optaget lyde til spillet som er redigeret og eksporteret i Audition. I Javascript har jeg bestemt at når man eksempelvis klikker på en mus, så skal den sige en bestemt lyd.
-          </p>
-          <button class="tema_knap"><a href="#">SE SPILLET HER</a></button></div>
-        
+          <div>
+            <h3>Animation og Javascript</h3>
+            <p>
+              Efter SVG filerne var eksporteret, kunne jeg begynde at kode alle elementerne ind på spilsiden. I css har jeg defineret hvilke animationer spillet skulle indeholde via keyframes. For at skabe overblik over hvilke animationer der skulle
+              aktiveres og hvornår, har jeg lavet et State Machine diagram som indeholder alle funktioner i spillet. Under hele kodningsforløbet har jeg brugt console.log for at sikre mig at alle funktioner har virket og på de rigtige tidspunkter.
+              Som den sidste del af udviklingen, har jeg optaget lyde til spillet som er redigeret og eksporteret i Audition. I Javascript har jeg bestemt at når man eksempelvis klikker på en mus, så skal den sige en bestemt lyd.
+            </p>
+            <button class="tema_knap"><a href="#">SE SPILLET HER</a></button>
+          </div>
+
           <div class="img_order"><img src="tema4_javascript.png" alt="" /></div>
         </section>
-
-
       </div>
     </main>
     <script src="script.js"></script>
