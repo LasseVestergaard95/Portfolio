@@ -86,11 +86,14 @@ a {
 
 .grid_1_1 h2 {
   font-size: 3rem;
+  line-height: 1.5;
 }
+.grid_1_1 h3{
+  line-height: 0;
+  margin-bottom: 3rem;
+}
+
 .grid_btn {
-  padding: 1rem;
-}
-.grid_btn a {
   text-decoration: none;
   color: rgb(236, 225, 225);
   font-family: gill-sans-nova;
@@ -99,9 +102,10 @@ a {
   border: 2px solid rgb(236, 225, 225);
   border-radius: 15px;
   padding-inline: 15px;
+  margin-bottom: 0.8rem;
 }
 
-.grid_btn:hover a {
+.grid_btn:hover  {
   transform: scale(1.02);
   font-weight: 700;
 }
@@ -111,15 +115,17 @@ a {
 
 .tema2_opgaver {
   background-color: #354f52;
+  display: grid;
 }
 .tema2_opgaver h3 {
   text-align: left;
+  margin-bottom: 20px;
   color: rgb(236, 225, 225);
 }
-.tema2_opgaver a {
+/* .tema2_opgaver a {
   color: rgb(236, 225, 225);
   font-weight: 700;
-}
+} */
 
 .tema2_opgaver p {
   padding-bottom: 20px;
@@ -127,15 +133,17 @@ a {
   color: rgb(236, 225, 225);
 }
 
-.tema_knap a {
+.tema_knap {
   text-decoration: none;
   color: rgb(236, 225, 225);
   font-family: gill-sans-nova;
   font-weight: 400;
-  font-size: large;
+  font-size: 1rem;
   border: 2px solid rgb(236, 225, 225);
   border-radius: 15px;
   padding-inline: 15px;
+  width: fit-content;
+  margin-bottom: 20px;
 }
 .tema_knap:hover {
   transform: scale(1.02);
@@ -144,6 +152,7 @@ a {
 
 .tema3_opgavebeskrivelse {
   background-color: #354f52;
+  padding-block: 2rem;
 }
 .tema3_opgavebeskrivelse p,
 .tema3_opgavebeskrivelse h3 {
@@ -151,7 +160,7 @@ a {
   margin-inline: 50px;
 }
 .tema3_opgavebeskrivelse a {
-  margin-inline: 25px;
+  margin-inline: 50px;
 }
 .tema3_faser h3 {
   margin-top: 20px;
@@ -182,7 +191,7 @@ a {
 }
 
 .tema4_opgave_container a {
-  margin-inline: 25px;
+  margin-inline: 50px;
 }
 
 .tema5_pilotsite {
@@ -200,7 +209,10 @@ a {
   margin-inline: 50px;
 }
 .tema5_pilotsite a {
-  margin-inline: 25px;
+  margin-inline: 50px;
+}
+.tema5_pilotsite img{
+  margin-block-start: 20px;
 }
 
 .tema5_redesign h3,
@@ -209,7 +221,7 @@ p {
 }
 .tema5_redesign a {
   color: black;
-  border: 2px solid black;
+  border: 2px solid black
 }
 .tema5_redesign button {
   padding: 0;
@@ -261,9 +273,9 @@ p {
   }
 
   .tema3_opgavebeskrivelse p,
-  .tema3_opgavebeskrivelse h3 {
+  .tema3_opgavebeskrivelse h3, .tema3_opgavebeskrivelse a {
     text-align: center;
-    margin: auto;
+    margin-inline: auto;
   }
 
   .tema3_faser h3,
@@ -293,6 +305,9 @@ p {
     order: -1;
     width: 95%;
     margin-inline: auto;
+  }
+  .tema5_pilotsite img{
+    margin-block-start: 0px;
   }
   .tema5_redesign,
   .tema5_redesign p {

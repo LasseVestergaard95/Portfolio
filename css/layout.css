@@ -68,11 +68,9 @@ nav ul {
 }
 
 .tema2_opgaver h3,
-.tema2_opgaver p {
-  margin-inline: 50px;
-}
+.tema2_opgaver p,
 .tema2_opgaver a {
-  margin-inline: 25px;
+  margin-inline: 50px;
 }
 
 .tema2_opgaver h3 {
@@ -84,27 +82,28 @@ nav ul {
   object-fit: cover;
 }
 .tema3_opgavebeskrivelse h3 {
-  padding-block: 20px;
+  margin-block-end: 20px;
 }
 
-.færdigheder li{
+.færdigheder li {
   font-weight: 600;
   margin-inline: auto;
 }
-.færdigheder, .færdigheder h3{
+.færdigheder,
+.færdigheder h3 {
   background-color: #354f52;
   color: rgb(236, 225, 225);
   text-align: center;
   padding-block: 10px;
 }
-.list_grid{
+.list_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-block: 20px;
   gap: 10px;
 }
 
-.valg_af_uddannelse{
+.valg_af_uddannelse {
   margin-block: 30px;
 }
 
@@ -150,11 +149,6 @@ nav ul {
     grid-template-columns: 1fr 1fr;
     gap: 100px;
   }
-  .tema2_emnesite button,
-  .tema2_website button {
-    margin-right: auto;
-    margin-top: auto;
-  }
 
   .tema2_galleri {
     display: grid;
@@ -162,11 +156,11 @@ nav ul {
     width: 90%;
     margin: auto;
   }
-  .tema2_website,
+  /* .tema2_website,
   .tema2_emnesite {
     display: flex;
     flex-direction: column;
-  }
+  } */
   .tema3_faser {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -210,47 +204,45 @@ nav ul {
     order: -1;
     object-fit: cover;
   }
-  .tema5_redesign_faser{
+  .tema5_redesign_faser {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
-.om_mig{
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 60px;
-  align-items: center;
-}
-.img_order4{
-  order: 1;
-}
-.cv_overskrift{
-  text-align: left;
-}
-.cv_overskrift:nth-child(1){
-  font-size: 3rem;
-  line-height: 1;
-  margin-top:10px
-}
-.cv_overskrift:nth-child(2){
-  font-size: 2rem;
-  margin-bottom: 20px;
-  line-height: 1;
-}
-.fremtidsplaner{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 30px;
-  margin-inline: auto;
-  
-}
-.valg_af_uddannelse{
-  margin: auto;
-}
-.færdigheder{
-  padding-inline: 10px;
-}
-
+  .om_mig {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .img_order4 {
+    order: 1;
+  }
+  .cv_overskrift {
+    text-align: left;
+  }
+  .cv_overskrift:nth-child(1) {
+    font-size: 3rem;
+    line-height: 1;
+    margin-top: 10px;
+  }
+  .cv_overskrift:nth-child(2) {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+  .fremtidsplaner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin-inline: auto;
+  }
+  .valg_af_uddannelse {
+    margin: auto;
+  }
+  .færdigheder {
+    padding-inline: 10px;
+  }
 }
 @media (min-width: 1000px) {
   .grid_1_1 {
