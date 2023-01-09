@@ -58,6 +58,9 @@ nav ul {
 .tema3 img {
   border-radius: 7px 7px 0px 0px;
 }
+.tema_beskrivelse{
+  margin-inline: 4%;
+}
 .tema_beskrivelse img {
   margin-block-end: 2rem;
 }
@@ -76,11 +79,15 @@ nav ul {
 .tema2_opgaver h3 {
   margin-block-start: 20px;
 }
+.tema2_galleri{
+  margin-inline: 4%;
+}
 .tema2_galleri img {
   margin-block: 20px;
   aspect-ratio: 17/10;
   object-fit: cover;
 }
+
 .tema3_opgavebeskrivelse h3 {
   margin-block-end: 20px;
 }
@@ -105,6 +112,7 @@ nav ul {
 
 .valg_af_uddannelse {
   margin-block: 30px;
+  margin-inline: 4%;
 }
 
 @media (min-width: 700px) {
@@ -236,13 +244,16 @@ nav ul {
     grid-template-columns: 1fr 2fr;
     gap: 30px;
     margin-inline: auto;
+    margin-block-end: 2rem;
   }
   .valg_af_uddannelse {
     margin: auto;
+
   }
   .færdigheder {
     padding-inline: 10px;
   }
+
 }
 @media (min-width: 1000px) {
   .grid_1_1 {
