@@ -1,4 +1,4 @@
-// variabler som definerer vores "menu" knap og vores tre links i toppen
+// variabler som definerer vores "menu" knap og vores links i toppen
 const btn = document.querySelector(".toggle-btn");
 const menu = document.querySelector(".header_kategori");
 const musContainer = document.querySelector("#mus_container");
