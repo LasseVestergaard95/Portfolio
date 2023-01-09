@@ -184,7 +184,7 @@ margin-inline: 4%;
   background-color: #354f52;
   color: rgb(236, 225, 225);
   padding-block-start: 2rem;
-  margin-bottom: 30px;
+
 }
 
 .tema4_opgave_container h3 {
@@ -199,7 +199,7 @@ margin-inline: 4%;
 
   width: 95%;
   margin-inline: auto;
-  margin-block: 20px;
+margin-block-start: 20px;
 }
 
 .tema4_opgave_container a {
@@ -317,6 +317,7 @@ p {
   }
   .tema4_opgave_container img {
     width: 95%;
+    margin-block-start: 0;
   }
 
   .tema5_pilotsite {
