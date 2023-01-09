@@ -224,6 +224,19 @@ p {
   margin-bottom: 20px;
 }
 
+.cv_overskrift {
+  text-align: center;
+}
+.om_mig img {
+  border-radius: 20px;
+  max-width: 250px;
+  margin-inline: auto;
+  margin-block: 20px;
+}
+
+.om_mig{
+  margin-block-end: 70px;
+}
 @media (min-width: 700px) {
   .forside_tekst p {
     text-align: center;
@@ -273,7 +286,6 @@ p {
   .tema5_pilotsite {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
   }
   .img_order2 {
     order: -1;
@@ -281,7 +293,7 @@ p {
     margin-inline: auto;
   }
   .tema5_redesign,
-  .tema5_redesign p{
+  .tema5_redesign p {
     margin-inline: auto;
     text-align: center;
   }
@@ -291,7 +303,10 @@ p {
     margin-inline: 20px;
     margin-inline: auto;
   }
-.tema5_pilotsite{
-  padding-block-end: 30px;
-}
+  .tema5_pilotsite {
+    padding-block-end: 30px;
+  }
+  .om_mig{
+    margin-block-end: 40px;
+  }
 }
