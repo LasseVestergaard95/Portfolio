@@ -188,6 +188,13 @@ nav ul {
     order: -1;
     object-fit: cover;
   }
+  .tema5_redesign_faser{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+
 }
 @media (min-width: 1000px) {
   .grid_1_1 {

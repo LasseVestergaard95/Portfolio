@@ -65,10 +65,10 @@ a {
   margin-block-end: 2rem;
 }
 .forside_tekst h1 {
-line-height: 1;
+  line-height: 1;
 }
 .forside_tekst h2 {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .forside_tekst p {
   max-width: 75ch;
@@ -160,37 +160,79 @@ margin-bottom: 10px;
   margin-bottom: 30px;
 }
 
-.tema4_opgave_container{
+.tema4_opgave_container {
   background-color: #354f52;
   color: rgb(236, 225, 225);
   padding-block-start: 2rem;
   margin-bottom: 30px;
 }
 
-.tema4_opgave_container h3{
+.tema4_opgave_container h3 {
   margin-bottom: 20px;
   margin-inline: 50px;
-} 
-.tema4_opgave_container p{
+}
+.tema4_opgave_container p {
   margin-bottom: 30px;
   margin-inline: 50px;
 }
-.tema4_opgave_container img{
+.tema4_opgave_container img {
   margin: auto;
 }
 
-.tema4_opgave_container a{
+.tema4_opgave_container a {
   margin-inline: 25px;
+}
+
+.tema5_pilotsite {
+  background-color: #354f52;
+  color: rgb(236, 225, 225);
+  padding-block-start: 30px;
+  margin-block-end: 30px;
+}
+.tema5_pilotsite h3 {
+  margin-bottom: 20px;
+  margin-inline: 50px;
+}
+.tema5_pilotsite p {
+  margin-bottom: 30px;
+  margin-inline: 50px;
+}
+.tema5_pilotsite a {
+  margin-inline: 25px;
+}
+
+.tema5_redesign h3,
+p {
+  margin-bottom: 20px;
+}
+.tema5_redesign a {
+  color: black;
+  border: 2px solid black;
+}
+.tema5_redesign button {
+  padding: 0;
+  margin-block-end: 40px;
+}
+
+.tema5_redesign_faser {
+  margin-block: 30px;
+  display: grid;
+  gap: 30px;
+}
+.tema5_redesign_faser h3,
+p {
+  margin-bottom: 20px;
 }
 
 @media (min-width: 700px) {
   .forside_tekst p {
     text-align: center;
-    margin: auto;
+    margin-inline: auto;
   }
+
   .forside_tekst h2 {
     text-align: center;
-    }
+  }
   h1,
   h2 {
     text-align: center;
@@ -221,10 +263,35 @@ margin-bottom: 10px;
   .fase3 p {
     margin-bottom: 3rem;
   }
-  .tema4_opgave_container{
+  .tema4_opgave_container {
     padding-block-end: 1rem;
   }
-  .tema4_opgave_container img{
+  .tema4_opgave_container img {
     width: 95%;
   }
+
+  .tema5_pilotsite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  .img_order2 {
+    order: -1;
+    width: 95%;
+    margin-inline: auto;
+  }
+  .tema5_redesign,
+  .tema5_redesign p{
+    margin-inline: auto;
+    text-align: center;
+  }
+  .tema5_redesign_faser h3,
+  .tema5_redesign_faser p,
+  .tema5_redesign_faser img {
+    margin-inline: 20px;
+    margin-inline: auto;
+  }
+.tema5_pilotsite{
+  padding-block-end: 30px;
+}
 }
