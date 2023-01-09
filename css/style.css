@@ -27,7 +27,8 @@ header {
 p {
   max-width: 70ch;
 }
-footer, footer p {
+footer,
+footer p {
   background-color: black;
   color: white;
   text-align: center;
@@ -49,7 +50,7 @@ button {
   border: none;
 }
 
-.full_bleed{
+.full_bleed {
   box-shadow: 0 0 0 100vmax #354f52;
   clip-path: inset(0 -100vmax);
 }
@@ -70,7 +71,7 @@ a {
 .forside_tekst {
   margin-block-start: 1rem;
   margin-block-end: 2rem;
-margin-inline: 4%;
+  margin-inline: 4%;
 }
 .forside_tekst h1 {
   line-height: 1;
@@ -94,7 +95,7 @@ margin-inline: 4%;
   font-size: 3rem;
   line-height: 1.5;
 }
-.grid_1_1 h3{
+.grid_1_1 h3 {
   line-height: 0;
   margin-bottom: 3rem;
 }
@@ -111,7 +112,7 @@ margin-inline: 4%;
   margin-bottom: 0.8rem;
 }
 
-.grid_btn:hover  {
+.grid_btn:hover {
   transform: scale(1.02);
   font-weight: 700;
 }
@@ -168,7 +169,7 @@ margin-inline: 4%;
 .tema3_opgavebeskrivelse a {
   margin-inline: 50px;
 }
-.tema3_faser{
+.tema3_faser {
   margin-inline: 4%;
 }
 .tema3_faser h3 {
@@ -184,7 +185,6 @@ margin-inline: 4%;
   background-color: #354f52;
   color: rgb(236, 225, 225);
   padding-block-start: 2rem;
-
 }
 
 .tema4_opgave_container h3 {
@@ -196,10 +196,9 @@ margin-inline: 4%;
   margin-inline: 50px;
 }
 .tema4_opgave_container img {
-
   width: 95%;
   margin-inline: auto;
-margin-block-start: 20px;
+  margin-block-start: 20px;
 }
 
 .tema4_opgave_container a {
@@ -223,12 +222,12 @@ margin-block-start: 20px;
 .tema5_pilotsite a {
   margin-inline: 50px;
 }
-.tema5_pilotsite img{
+.tema5_pilotsite img {
   margin-block-start: 20px;
   width: 95%;
   margin-inline: auto;
 }
-.tema5_redesign{
+.tema5_redesign {
   margin-inline: 4%;
   margin-block-end: 5rem;
 }
@@ -239,7 +238,7 @@ p {
 }
 .tema5_redesign a {
   color: black;
-  border: 2px solid black
+  border: 2px solid black;
 }
 .tema5_redesign button {
   padding: 0;
@@ -266,7 +265,6 @@ p {
   max-width: 250px;
   margin-inline: auto;
   margin-block: 20px;
-  
 }
 
 .om_mig {
@@ -295,7 +293,8 @@ p {
   }
 
   .tema3_opgavebeskrivelse p,
-  .tema3_opgavebeskrivelse h3, .tema3_opgavebeskrivelse a {
+  .tema3_opgavebeskrivelse h3,
+  .tema3_opgavebeskrivelse a {
     text-align: center;
     margin-inline: auto;
   }
@@ -329,7 +328,7 @@ p {
     width: 95%;
     margin-inline: auto;
   }
-  .tema5_pilotsite img{
+  .tema5_pilotsite img {
     margin-block-start: 0px;
   }
   .tema5_redesign,

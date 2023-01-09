@@ -58,7 +58,7 @@ nav ul {
 .tema3 img {
   border-radius: 7px 7px 0px 0px;
 }
-.tema_beskrivelse{
+.tema_beskrivelse {
   margin-inline: 4%;
 }
 .tema_beskrivelse img {
@@ -79,7 +79,7 @@ nav ul {
 .tema2_opgaver h3 {
   margin-block-start: 20px;
 }
-.tema2_galleri{
+.tema2_galleri {
   margin-inline: 4%;
 }
 .tema2_galleri img {
@@ -248,12 +248,10 @@ nav ul {
   }
   .valg_af_uddannelse {
     margin: auto;
-
   }
   .færdigheder {
     padding-inline: 10px;
   }
-
 }
 @media (min-width: 1000px) {
   .grid_1_1 {
