@@ -23,15 +23,17 @@ header {
   background-color: black;
   padding-block: 1rem;
 }
-footer {
-  background-color: black;
-  padding-block: 3rem;
-}
 
 p {
   max-width: 70ch;
 }
-
+footer, footer p {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-block: 1rem;
+}
 header img {
   margin-inline-start: 1rem;
 }
@@ -234,7 +236,7 @@ p {
   margin-block: 20px;
 }
 
-.om_mig{
+.om_mig {
   margin-block-end: 70px;
 }
 @media (min-width: 700px) {
@@ -306,7 +308,7 @@ p {
   .tema5_pilotsite {
     padding-block-end: 30px;
   }
-  .om_mig{
+  .om_mig {
     margin-block-end: 40px;
   }
 }
