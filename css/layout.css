@@ -58,9 +58,7 @@ nav ul {
 .tema3 img {
   border-radius: 7px 7px 0px 0px;
 }
-.tema_beskrivelse {
-  margin-inline: 4%;
-}
+
 .tema_beskrivelse img {
   margin-block-end: 2rem;
 }
@@ -70,17 +68,8 @@ nav ul {
   padding-block: 30px;
 }
 
-/* .tema2_opgaver h3,
-.tema2_opgaver p,
-.tema2_opgaver a {
-  margin-inline: 50px;
-} */
-
 .tema2_opgaver h3 {
   margin-block-start: 20px;
-}
-.tema2_galleri {
-  margin-inline: 4%;
 }
 .tema2_galleri img {
   margin-block: 20px;
@@ -112,9 +101,7 @@ nav ul {
 
 .valg_af_uddannelse {
   margin-block: 30px;
-  margin-inline: 4%;
 }
-
 
 @media (min-width: 700px) {
   .grid_1_1 {
@@ -140,7 +127,7 @@ nav ul {
   }
   .header_kategori ul {
     display: flex;
-padding-inline-end: 2rem;
+    padding-inline-end: 2rem;
   }
 
   .tema_beskrivelse {
@@ -148,6 +135,7 @@ padding-inline-end: 2rem;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-block: 2rem;
+    align-items: center;
   }
 
   .tema_beskrivelse img {
@@ -173,19 +161,19 @@ padding-inline-end: 2rem;
   }
   .tema2_website a,
   .tema2_emnesite a {
- margin-top: auto;
+    margin-top: auto;
   }
   .tema3_faser {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     margin-block: 2rem;
   }
   .tema3_faser img {
     aspect-ratio: 3/2;
     object-fit: cover;
     inline-size: 100%;
-    width: 85%;
+    width: 95%;
   }
   .fase1,
   .fase2,
@@ -202,6 +190,7 @@ padding-inline-end: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    align-items: center;
   }
   .tema4_figurdesign img {
     aspect-ratio: 4/2;
@@ -212,6 +201,7 @@ padding-inline-end: 2rem;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-block: 5rem;
+    align-items: center;
   }
 
   .img_order {
@@ -251,7 +241,6 @@ padding-inline-end: 2rem;
     gap: 30px;
     margin-inline: auto;
     margin-block-end: 2rem;
-    margin-inline: 4%;
   }
   .valg_af_uddannelse {
     margin: auto;
@@ -259,16 +248,16 @@ padding-inline-end: 2rem;
   .færdigheder {
     padding-inline: 10px;
   }
-  .tema6_forarbejde{
+  .tema6_forarbejde {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     align-items: center;
   }
-  .img_order5{
+  .img_order5 {
     order: -1;
   }
-  .tema6_kodning{
+  .tema6_kodning {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
