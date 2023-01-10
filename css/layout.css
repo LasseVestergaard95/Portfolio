@@ -70,11 +70,11 @@ nav ul {
   padding-block: 30px;
 }
 
-.tema2_opgaver h3,
+/* .tema2_opgaver h3,
 .tema2_opgaver p,
 .tema2_opgaver a {
   margin-inline: 50px;
-}
+} */
 
 .tema2_opgaver h3 {
   margin-block-start: 20px;
