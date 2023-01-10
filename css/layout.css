@@ -164,11 +164,15 @@ nav ul {
     width: 90%;
     margin: auto;
   }
-  /* .tema2_website,
+  .tema2_website,
   .tema2_emnesite {
     display: flex;
     flex-direction: column;
-  } */
+  }
+  .tema2_website a,
+  .tema2_emnesite a {
+ margin-top: auto;
+  }
   .tema3_faser {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -245,6 +249,7 @@ nav ul {
     gap: 30px;
     margin-inline: auto;
     margin-block-end: 2rem;
+    margin-inline: 4%;
   }
   .valg_af_uddannelse {
     margin: auto;

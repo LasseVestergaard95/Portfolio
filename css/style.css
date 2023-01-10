@@ -13,6 +13,7 @@ main {
   /* width: 95%; */
   max-width: 1200px;
   margin-inline: auto;
+  margin-block: 2rem;
 }
 img {
   width: 100%;
@@ -115,6 +116,10 @@ a {
 .grid_btn:hover {
   transform: scale(1.02);
   font-weight: 700;
+}
+ 
+.tema_beskrivelse h1{
+font-size: 2rem;
 }
 .tema_beskrivelse p {
   padding-bottom: 20px;
