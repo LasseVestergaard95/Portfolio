@@ -41,7 +41,7 @@ header img {
 }
 nav a,
 button {
-  padding: 1.4rem;
+  padding: 1rem;
   text-decoration: none;
   color: rgb(236, 225, 225);
   font-family: gill-sans-nova;
@@ -275,6 +275,39 @@ p {
 .om_mig {
   margin-block-end: 70px;
   margin-inline: 4%;
+}
+.tema6_forarbejde{
+  background-color: #354f52;
+  color: rgb(236, 225, 225);
+  padding-block-start: 30px;
+  margin-block-end: 30px;
+  margin-inline: 4%;
+}
+.tema6_forarbejde h3 {
+  margin-bottom: 20px;
+  /* margin-inline: 50px; */
+}
+.tema6_forarbejde p {
+  margin-bottom: 30px;
+  /* margin-inline: 50px; */
+}
+.tema6_forarbejde img{
+  /* width: 95%; */
+  margin-inline: auto;
+  padding-bottom: 30px;
+
+}
+
+.tema6_kodning{
+  margin-inline: 4%;
+}
+.tema6_kodning h3 {
+  margin-bottom: 20px;
+
+}
+.tema6_kodning p {
+  margin-bottom: 30px;
+
 }
 @media (min-width: 700px) {
   .forside_tekst p {

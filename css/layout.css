@@ -115,6 +115,7 @@ nav ul {
   margin-inline: 4%;
 }
 
+
 @media (min-width: 700px) {
   .grid_1_1 {
     display: grid;
@@ -139,6 +140,7 @@ nav ul {
   }
   .header_kategori ul {
     display: flex;
+padding-inline-end: 2rem;
   }
 
   .tema_beskrivelse {
@@ -256,6 +258,22 @@ nav ul {
   }
   .færdigheder {
     padding-inline: 10px;
+  }
+  .tema6_forarbejde{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+  }
+  .img_order5{
+    order: -1;
+  }
+  .tema6_kodning{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-block: 3rem;
   }
 }
 @media (min-width: 1000px) {
